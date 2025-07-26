@@ -1,4 +1,4 @@
-# Happy Gilmore
+# Happy Gilmore ⛳
 ## Golf Club Trajectory Visualizations
 
 This Python script visualizes typical golf ball flight paths and approximate carry distances by club type. Two visualizations are produced:
