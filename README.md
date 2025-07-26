@@ -1,6 +1,6 @@
 # Golf Club Trajectory Visualizations
 
-This Python script visualizes typical golf ball flight paths and carry distances by club type. Two visualizations are produced:
+This Python script visualizes typical golf ball flight paths and approximate carry distances by club type. Two visualizations are produced:
 
 1. **Standard Trajectory Plot** – Shows the height and distance for 8 common golf clubs.
 2. **Trajectory Plot with Carry Zones** – Adds shaded distance bands to group clubs by typical carry ranges (Wedges, Irons, Fairway Woods, Driver).
