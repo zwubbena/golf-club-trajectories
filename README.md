@@ -2,7 +2,7 @@
 
 This Python script visualizes typical golf ball flight paths and approximate carry distances by club type. Two visualizations are produced:
 
-1. **Standard Trajectory Plot** – Shows the height (vertical trajectory) and distance (yardage) for 8 common golf clubs.
+1. **Standard Trajectory Plot** – Shows the height (vertical trajectory) and distance (yardage) for 8 common types of golf clubs.
 2. **Trajectory Plot with Carry Zones** – Adds shaded distance bands to group clubs by typical carry ranges (Wedges, Irons, Fairway Woods, Driver).
 
 Both visualizations are generated in Google Colab and exported as high-resolution PNG images.
