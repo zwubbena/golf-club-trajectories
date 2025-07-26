@@ -29,11 +29,22 @@ Both visualizations are generated in Google Colab and exported as high-resolutio
 
 ## How It Works
 
-Each club’s flight path is modeled with a simple parabolic formula:
+Each club’s flight path is modeled with a parabolic equation:
 
 ![Trajectory Formula](https://latex.codecogs.com/svg.image?\dpi{150}&space;\text{height}(x)&space;=&space;\text{apex}&space;\cdot&space;\left(1&space;-&space;\frac{(x&space;-&space;\text{midpoint})^2}{\text{midpoint}^2}\right))
 
-This approximates the natural arc of a ball in flight, from launch to landing.
+The following variables define the parameters of this equation.
+
+### 🔍 Variable Definitions
+
+| Variable      | Definition                                                                 |
+|---------------|------------------------------------------------------------------------------|
+| `height(x)`   | Height of the golf ball (in feet) at a given horizontal position `x`.        |
+| `x`           | Horizontal distance (in yards) from the starting point of the shot.          |
+| `apex`        | Maximum height (in feet) reached by the ball at the peak of its trajectory.  |
+| `midpoint`    | Horizontal midpoint (in yards) of the ball's carry, calculated as `distance / 2`. |
+
+This equation produces a symmetric parabolic arc that peaks at the midpoint of the carry distance and returns to ground level at the expected landing point to essentially approximate the natural arc of a ball in flight, from launch to landing.
 
 ---
 
