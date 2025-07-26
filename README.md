@@ -56,9 +56,9 @@ This equation produces a symmetric parabolic arc that peaks at the midpoint of t
 
 ## Getting Started
 
-1. Open the Colab notebook.
-2. Run all cells to generate the visualizations.
-3. Visualizations should be generated inline at the end of the script.
+1. Open the Colab notebook
+2. Run all cells to generate the visualizations
+3. Visualizations should be generated inline at the end of the script
 
 ---
 
