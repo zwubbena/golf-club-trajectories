@@ -73,4 +73,4 @@ Both are available for download within the Colab notebook after execution.
 
 ---
 
-# Enjoy! 
+# "So long, sucker!"
