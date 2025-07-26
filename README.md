@@ -27,23 +27,11 @@ Both visualizations are generated in Google Colab and exported as high-resolutio
 
 ---
 
-## Output Files
-
-The following PNG files are generated:
-
-- `golf_ball_trajectory_by_club_type.png`
-- `golf_ball_trajectory_with_carry_zones.png`
-
-Both are available for download within the Colab notebook after execution.
-
----
-
 ## How It Works
 
 Each club’s flight path is modeled with a simple parabolic formula:
 
-```math
-\text{height}(x) = \text{apex} \cdot \left(1 - \frac{(x - \text{midpoint})^2}{\text{midpoint}^2}\right)
+![Trajectory Formula](https://latex.codecogs.com/svg.image?\dpi{150}&space;\text{height}(x)&space;=&space;\text{apex}&space;\cdot&space;\left(1&space;-&space;\frac{(x&space;-&space;\text{midpoint})^2}{\text{midpoint}^2}\right))
 
 This approximates the natural arc of a ball in flight, from launch to landing.
 
@@ -53,8 +41,18 @@ This approximates the natural arc of a ball in flight, from launch to landing.
 
 1. Open the Colab notebook.
 2. Run all cells to generate the visualizations.
-3. Visualizations should be generated inline at the end of the script. 
-4. Download the PNG files using the provided download links.
+3. Visualizations should be generated inline at the end of the script.
+
+---
+
+## Output Files
+
+The following PNG files are generated for download:
+
+- `golf_ball_trajectory_by_club_type.png`
+- `golf_ball_trajectory_with_carry_zones.png`
+
+Both are available for download within the Colab notebook after execution.
 
 ---
 
