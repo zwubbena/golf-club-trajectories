@@ -12,8 +12,14 @@ Both visualizations are generated in Google Colab and exported as high-resolutio
 ## Key Features
 
 - **Illustrative trajectories** for 8 club types:
-  - Driver, 3-Wood, 5-Iron, 7-Iron, 9-Iron
-  - Pitching Wedge, Sand Wedge, Lob Wedge
+  - Driver
+  - 3-Wood
+  - 5-Iron
+  - 7-Iron
+  - 9-Iron
+  - Pitching Wedge
+  - Sand Wedge
+  - Lob Wedge
 - **Realistic apex heights and distances**
 - **Color-coded lines**:
   - 🔴 Red = Longest club (Driver)
